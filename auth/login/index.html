@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng Nhập - Dịch Vụ Bất Động Sản</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+      }
+      .login-container {
+        background-color: white;
+        padding: 20px 30px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 100%;
+      }
+      h1 {
+        color: #1b4b72;
+        text-align: center;
+      }
+      .form-group {
+        margin-bottom: 15px;
+      }
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      .form-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      .form-group input:focus {
+        border-color: #1b4b72;
+        outline: none;
+      }
+      .login-button {
+        width: 100%;
+        padding: 10px;
+        background-color: #1b4b72;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      .login-button:hover {
+        background-color: #14508a;
+      }
+      .forgot-password {
+        text-align: right;
+        margin-top: 10px;
+      }
+      .forgot-password a {
+        color: #1b4b72;
+        text-decoration: none;
+      }
+      .forgot-password a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>Đăng Nhập</h1>
+      <form action="submit_login.php" method="POST">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="password">Mật Khẩu:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+
+        <button type="submit" class="login-button">Đăng Nhập</button>
+
+        <div class="forgot-password">
+          <a href="#">Quên mật khẩu?</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

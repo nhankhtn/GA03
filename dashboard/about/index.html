@@ -29,127 +29,176 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/responsive.css" />
     <link rel="stylesheet" href="/css/dashboard/about/styles.css" />
-    <link rel="stylesheet" href="/css/dashboard/about/styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
   <body>
-    <section id="home" class="welcome-hero">
-      <div class="top-area">
-        <div class="header-area">
-          <!-- Start Navigation -->
-          <nav
-            class="navbar navbar-default bootsnav navbar-sticky navbar-scrollspy"
-            data-minus-value-desktop="70"
-            data-minus-value-mobile="55"
-            data-speed="1000"
+    <header id="navigation">
+      <!-- Start Navigation -->
+      <nav
+        class="navbar navbar-default bootsnav navbar-sticky navbar-scrollspy"
+        data-minus-value-desktop="70"
+        data-minus-value-mobile="55"
+        data-speed="1000"
+      >
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#navbar-menu"
           >
-            <div class="container">
-              <div class="navbar-header">
-                <button
-                  type="button"
-                  class="navbar-toggle"
-                  data-toggle="collapse"
-                  data-target="#navbar-menu"
-                >
-                  <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="index.html">3N<span></span></a>
-              </div>
-              <div
-                class="collapse navbar-collapse menu-ui-design flex"
-                id="navbar-menu"
-              >
-                <ul
-                  class="nav navbar-nav navbar-right"
-                  data-in="fadeInDown"
-                  data-out="fadeOutUp"
-                >
-                  <li class="active">
-                    <a href="/dashboard/index.html">Home</a>
-                  </li>
-                  <li class="">
-                    <a href="/dashboard/about/index.html">About</a>
-                  </li>
-                  <li class="">
-                    <a href="/dashboard/contact/index.html">Contact</a>
-                  </li>
-                  <li class="">
-                    <a href="/product/list/index.html">Product</a>
-                  </li>
-                  <li class="">
-                    <button type="button" id="btn-login">Login</button>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <!-- End Navigation -->
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="index.html"><span>3N</span></a>
         </div>
-        <div class="clearfix"></div>
-      </div>
-
-      <div>
-        <main>
-          <section>
-            <h2>Công Ty Chúng Tôi</h2>
-            <p>
-              Chúng tôi là một đơn vị cung cấp dịch vụ bất động sản chuyên
-              nghiệp, chuyên về bất động sản nhà ở, thương mại và đầu tư. Với
-              cam kết về chất lượng, chúng tôi nỗ lực mang đến cho khách hàng
-              các dịch vụ hiệu quả, đáng tin cậy trong mọi lĩnh vực của thị
-              trường bất động sản.
-            </p>
-          </section>
-
-          <section>
-            <h2>Sứ Mệnh</h2>
-            <p>
-              Sứ mệnh của chúng tôi là tái định nghĩa trải nghiệm bất động sản
-              bằng cách cung cấp các giải pháp sáng tạo tạo ra giá trị cho khách
-              hàng và cộng đồng. Chúng tôi luôn hướng tới sự minh bạch, tin
-              tưởng và dịch vụ xuất sắc để đơn giản hóa quá trình mua bán và đầu
-              tư bất động sản.
-            </p>
-          </section>
-
-          <section>
-            <h2>Tầm Nhìn</h2>
-            <p>
-              Tầm nhìn của chúng tôi là trở thành đơn vị dẫn đầu đáng tin cậy
-              trong ngành bất động sản, được biết đến với sự chính trực, tận tâm
-              và cam kết giúp khách hàng đạt được mục tiêu bất động sản của họ.
-              Chúng tôi mong muốn góp phần xây dựng cộng đồng bền vững và thịnh
-              vượng.
-            </p>
-          </section>
-
-          <section>
-            <h2>Đội Ngũ Chúng Tôi</h2>
-            <div class="team">
-              <div class="team-member">
-                <img src="/assets/nhan.jpg" alt="CEO - Ngô Nguyễn Duy Nhân" />
-                <h3>Ngô Nguyễn Duy Nhân</h3>
-                <p>CEO</p>
-                <p>
-                  Là một nhà lãnh đạo có tầm nhìn với hơn 20 năm kinh nghiệm
-                  trong ngành bất động sản, dẫn dắt đội ngũ của chúng tôi cung
-                  cấp dịch vụ và đổi mới xuất sắc.
-                </p>
-              </div>
-              <div class="team-member">
-                <img src="/assets/nhat.jpg" alt="Co-Founder - Trần Thái Nhật" />
-                <h3>Trần Thái Nhật</h3>
-                <p>Đồng Sáng Lập</p>
-                <p>
-                  Với kiến thức sâu rộng về kinh doanh bất động sản, Trần Thái
-                  Nhật luôn tận tâm giúp khách hàng tìm được ngôi nhà lý tưởng
-                  hoặc tài sản đầu tư phù hợp.
-                </p>
-              </div>
+        <div
+          class="collapse navbar-collapse menu-ui-design flex"
+          id="navbar-menu"
+        >
+          <ul
+            class="nav navbar-nav navbar-right"
+            data-in="fadeInDown"
+            data-out="fadeOutUp"
+          >
+            <li class="">
+              <a href="/dashboard/index.html">Home</a>
+            </li>
+            <li class="active">
+              <a href="/dashboard/about/index.html">About</a>
+            </li>
+            <li class="">
+              <a href="/dashboard/contact/index.html">Contact</a>
+            </li>
+            <li class="">
+              <a href="/product/list/index.html">Product</a>
+            </li>
+            <li class="">
+              <button type="button" id="btn-login">Login</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="responsive-container-block bigContainer">
+        <!-- Info company -->
+        <section>
+          <div class="responsive-container-block Container">
+            <img class="mainImg" src="/assets/images/brand/company.jpg" />
+            <div class="allText aboveText">
+              <p class="text-blk headingText">Dịch Vụ Ô Tô - Campany</p>
+              <p class="text-blk subHeadingText">
+                Chuyên nghiệp và tận tâm trong từng dịch vụ chăm sóc xe.
+              </p>
+              <p class="text-blk description">
+                Chúng tôi cung cấp các dịch vụ bảo dưỡng, sửa chữa và chăm sóc
+                xe toàn diện. Với đội ngũ kỹ thuật viên giàu kinh nghiệm và
+                trang thiết bị hiện đại, chúng tôi cam kết mang đến sự an tâm và
+                hài lòng cho mỗi khách hàng.
+              </p>
+              <button class="explore">Khám Phá Dịch Vụ</button>
             </div>
-          </section>
-        </main>
+          </div>
+        </section>
+
+        <!-- Mission -->
+        <section>
+          <div class="responsive-container-block Container">
+            <img
+              class="mainImg"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eaboutus1.svg"
+            />
+            <div class="allText aboveText">
+              <p class="text-blk headingText">Sứ Mệnh Của Chúng Tôi</p>
+              <p class="text-blk subHeadingText">
+                Tận tâm đồng hành, mang đến chất lượng và sự an toàn cho mọi
+                hành trình.
+              </p>
+              <p class="text-blk description">
+                Chúng tôi cam kết cung cấp các dịch vụ chăm sóc và bảo dưỡng ô
+                tô chất lượng cao, giúp mỗi chiếc xe luôn đạt hiệu suất tối ưu.
+                Với đội ngũ kỹ thuật viên chuyên nghiệp và sự tận tâm, chúng tôi
+                luôn nỗ lực để mang đến sự an toàn và hài lòng tối đa cho khách
+                hàng.
+              </p>
+              <button class="explore">Khám Phá Thêm</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Vision -->
+        <section>
+          <div class="responsive-container-block Container bottomContainer">
+            <img
+              class="mainImg"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/xpraup2.svg"
+            />
+            <div class="allText bottomText">
+              <p class="text-blk headingText">Tầm Nhìn Của Chúng Tôi</p>
+              <p class="text-blk subHeadingText">
+                Dẫn đầu trong dịch vụ chăm sóc ô tô, vì an toàn và bền bỉ trên
+                mọi hành trình.
+              </p>
+              <p class="text-blk description">
+                Chúng tôi đặt mục tiêu trở thành lựa chọn hàng đầu của khách
+                hàng trong ngành dịch vụ ô tô, cung cấp giải pháp tối ưu để xe
+                của bạn luôn vận hành an toàn và hiệu quả. Với sự cải tiến không
+                ngừng, chúng tôi hướng đến xây dựng một tiêu chuẩn mới về chất
+                lượng và độ tin cậy cho từng dịch vụ.
+              </p>
+              <button class="explore">Khám Phá Tầm Nhìn</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Team -->
+        <section>
+          <!-- Thành viên 1 -->
+          <div class="responsive-container-block Container bottomContainer">
+            <img
+              class="mainImg member-image"
+              src="/assets/images/members/nhan.jpg"
+            />
+            <div class="allText bottomText">
+              <p class="text-blk headingText">Ngô Nguyễn Duy Nhân</p>
+              <p class="text-blk subHeadingText">
+                Nhà sáng lập & Giám đốc Điều hành
+              </p>
+              <p class="text-blk description">
+                Với niềm đam mê ô tô và tầm nhìn chiến lược, anh Nhân đã đồng
+                sáng lập công ty với sứ mệnh cung cấp các dịch vụ ô tô chất
+                lượng cao. Anh dẫn dắt đội ngũ với sự tận tâm và cam kết xây
+                dựng tiêu chuẩn dịch vụ tốt nhất cho khách hàng.
+              </p>
+              <button class="explore">Tìm Hiểu Thêm</button>
+            </div>
+          </div>
+
+          <!-- Thành viên 2 -->
+          <div class="responsive-container-block Container bottomContainer">
+            <img
+              class="mainImg member-image"
+              src="/assets/images/members/nhat.jpg"
+            />
+            <div class="allText bottomText">
+              <p class="text-blk headingText">Trần Thái Nhật</p>
+              <p class="text-blk subHeadingText">
+                Đồng sáng lập & Giám đốc Kỹ thuật
+              </p>
+              <p class="text-blk description">
+                Anh Nhật là người đồng sáng lập và chịu trách nhiệm về kỹ thuật
+                của công ty. Với kinh nghiệm sâu rộng trong ngành công nghệ ô
+                tô, anh cam kết mang đến các giải pháp hiệu quả và tiên tiến để
+                đảm bảo mỗi chiếc xe của khách hàng luôn trong tình trạng tốt
+                nhất.
+              </p>
+              <button class="explore">Tìm Hiểu Thêm</button>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
+    </main>
+
     <footer>
       <p>&copy; 2024 Dịch Vụ Bất Động Sản - Mọi quyền được bảo lưu</p>
     </footer>

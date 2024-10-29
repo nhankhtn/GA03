@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,7 +12,7 @@
       href="https://fonts.googleapis.com/css?family=Ruf/na:400,700"
       rel="stylesheet"
     />
-    <title>Đăng Nhập - Dịch Vụ Bất Động Sản</title>
+    <title>Chi tiết xe</title>
     <link
       rel="shortcut icon"
       type="image/icon"
@@ -28,9 +28,9 @@
     <link rel="stylesheet" href="/assets/css/bootsnav.css" />
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/responsive.css" />
-    <link rel="stylesheet" href="/css/auth/register/styles.css" />
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
+
   <body>
     <header id="navigation">
       <nav
@@ -68,10 +68,10 @@
             <li class="">
               <a href="/dashboard/contact/index.html">Contact</a>
             </li>
-            <li class="">
+            <li class="active">
               <a href="/product/list/index.html">Product</a>
             </li>
-            <li class="active">
+            <li class="">
               <a role="button" href="/auth/login/index.html">Login</a>
             </li>
           </ul>
@@ -79,67 +79,64 @@
       </nav>
     </header>
     <main class="container">
-      <div class="register-container">
-        <h1>Đăng Ký</h1>
-        <form action="submit_register.php" method="POST">
-          <div class="form-group">
-            <label for="username">Tên người dùng:</label>
-            <input
-              type="text"
-              class="form-control"
-              id="username"
-              name="username"
-              placeholder="Nhập tên người dùng"
-              required
-            />
+      <section id="new-cars" class="new-cars">
+        <div class="container">
+          <div class="section-header">
+            <p>checkout <span>the</span> latest cars</p>
+            <h2>newest cars</h2>
           </div>
 
-          <div class="form-group">
-            <label for="email">Email:</label>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              name="email"
-              placeholder="Nhập email của bạn"
-              required
-            />
+          <div class="new-cars-content">
+            <div class="owl-carousel owl-theme" id="new-cars-carousel">
+              <div class="new-cars-item">
+                <div class="single-new-cars-item">
+                  <div class="row">
+                    <div class="col-md-7 col-sm-12">
+                      <div class="new-cars-img">
+                        <img
+                          src="/assets/images/new-cars-model/ncm2.png"
+                          alt="img"
+                        />
+                      </div>
+                      <!--/.new-cars-img-->
+                    </div>
+                    <div class="col-md-5 col-sm-12">
+                      <div class="new-cars-txt">
+                        <h2><a href="#">BMW series-3 wagon</a></h2>
+                        <p>
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit esse cillum dolore eu fugiat nulla pariatur.
+                          Excepteur sint occaecat cupidatat non proident, sunt
+                          in culpa qui officia deserunt mollit anim id est
+                          laborum.
+                        </p>
+                        <p class="new-cars-para2">
+                          Sed ut pers unde omnis iste natus error sit voluptatem
+                          accusantium doloremque laudantium.
+                        </p>
+                        <button
+                          class="welcome-btn new-cars-btn"
+                          onclick="window.location.href='#'"
+                        >
+                          view details
+                        </button>
+                      </div>
+                      <!--/.new-cars-txt-->
+                    </div>
+                    <!--/.col-->
+                  </div>
+                  <!--/.row-->
+                </div>
+                <!--/.single-new-cars-item-->
+              </div>
+              <!--/.new-cars-item-->
+            </div>
+            <!--/#new-cars-carousel-->
           </div>
-
-          <div class="form-group">
-            <label for="password">Mật Khẩu:</label>
-            <input
-              type="password"
-              class="form-control"
-              id="password"
-              name="password"
-              placeholder="Nhập mật khẩu của bạn"
-              required
-            />
-          </div>
-
-          <div class="form-group">
-            <label for="confirm_password">Xác Nhận Mật Khẩu:</label>
-            <input
-              type="password"
-              class="form-control"
-              id="confirm_password"
-              name="confirm_password"
-              placeholder="Xác nhận mật khẩu của bạn"
-              required
-            />
-          </div>
-
-          <button type="submit" class="btn register-button">Đăng Ký</button>
-
-          <div class="forgot-password">
-            <span
-              >Đã có tài khoản?
-              <a href="/auth/login/index.html">Đăng nhập</a></span
-            >
-          </div>
-        </form>
-      </div>
+          <!--/.new-cars-content-->
+        </div>
+        <!--/.container-->
+      </section>
     </main>
   </body>
 </html>

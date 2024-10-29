@@ -1,0 +1,41 @@
+.register-container {
+  max-width: 400px;
+  margin: 12% auto;
+  background: #ffffff;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.register-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+}
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.register-button {
+  width: 100%;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.register-button:hover {
+  background-color: #0056b3;
+}
+.forgot-password {
+  text-align: right;
+  margin-top: 15px;
+}
+.forgot-password a {
+  color: #007bff;
+  font-size: 1rem;
+  text-decoration: none;
+}
+.forgot-password a:hover {
+  text-decoration: underline;
+}

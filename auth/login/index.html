@@ -78,43 +78,45 @@
         </div>
       </nav>
     </header>
-    <div class="login-container">
-      <h1>Đăng Nhập</h1>
-      <form action="submit_login.php" method="POST">
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            name="email"
-            placeholder="Nhập email của bạn"
-            required
-          />
-        </div>
+    <div class="container">
+      <div class="login-container">
+        <h1>Đăng Nhập</h1>
+        <form action="submit_login.php" method="POST">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Nhập email của bạn"
+              required
+            />
+          </div>
 
-        <div class="form-group">
-          <label for="password">Mật Khẩu:</label>
-          <input
-            type="password"
-            class="form-control"
-            id="password"
-            name="password"
-            placeholder="Nhập mật khẩu của bạn"
-            required
-          />
-        </div>
+          <div class="form-group">
+            <label for="password">Mật Khẩu:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              name="password"
+              placeholder="Nhập mật khẩu của bạn"
+              required
+            />
+          </div>
 
-        <button type="submit" class="btn login-button">Đăng Nhập</button>
+          <button type="submit" class="btn login-button">Đăng Nhập</button>
 
-        <div class="forgot-password">
-          <span
-            >Chưa có tài khoản?
-            <a href="/auth/register/index.html">Đăng kí</a></span
-          >
-          <a href="#">Quên mật khẩu?</a>
-        </div>
-      </form>
+          <div class="forgot-password">
+            <span
+              >Chưa có tài khoản?
+              <a href="/auth/register/index.html">Đăng kí</a></span
+            >
+            <a href="#">Quên mật khẩu?</a>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
